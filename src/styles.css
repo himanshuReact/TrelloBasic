@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.header {
+  background-color: red;
+  padding: 2vw;
+}
+
+.board__type {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: limegreen; */
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vw;
+  /* min-height: 4vh; */
+  /* height: 20vh;/ */
+  /* margin-bottom: 80px; */
+}
+
+.type__block {
+  padding-top: 2vw;
+  background-color: #4267b2;
+  width: 25vw;
+  /* height: 70vh;dd */
+  margin-bottom: 5vh;
+  padding-bottom: 3vw;
+  min-height: 10vh;
+}
+
+.button {
+  color: red;
+  margin: 2vh;
+  padding: 1vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.task__card {
+  display: flex;
+  justify-content: space-around;
+  padding: 1vw;
+}
